@@ -22,7 +22,7 @@
 
         <div class="flex justify-center items-center m-5.5 gap-3.5">
            <button class="flex justify-between items-center bg-green-200 py-0.5 px-3.5 rounded-2xl gap-1 font-bold hover:bg-green-600"> <span id="countHeart">0 </span> <img class="w-5 h-5" src="assets/heart.png" alt="" srcset=""></button> 
-                      <button class="flex justify-between items-center bg-green-200 py-0.5 px-3.5 rounded-2xl gap-1 font-bold hover:bg-green-600"> <span> 100</span> <img class="w-5 h-5" src="assets/coin.png" alt="" srcset=""></button>
+                      <button class="flex justify-between items-center bg-green-200 py-0.5 px-3.5 rounded-2xl gap-1 font-bold hover:bg-green-600"> <span id="coin"> 100</span> <img class="w-5 h-5" src="assets/coin.png" alt="" srcset=""></button>
                                  <button class="flex justify-between items-center bg-green-600 text-white font-bold py-0.5 px-3.5 rounded-2xl gap-1 hover:bg-green-900"><span>2</span>Copy</button>
         </div>
     </div>
@@ -52,13 +52,13 @@
       <img class="w-5" src="assets/emergency.png" alt="" srcset="">
     <i class="fa-solid fa-heart" id="heartIcon"></i>
     </div>
-    <h2 class="card-title">National Emergency Number</h2>
+    <h2 class="card-title" id="service">National Emergency Number</h2>
     <p>National Emergency</p>
-    <p class="font-bold">999</p>
+    <p class="font-bold" id="number">999</p>
     <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">All</p>
     <div class="card-actions flex flex-row justify-center">
       <button class="btn btn-primary  bg-amber-50 text-gray-600"><i class="fa-solid fa-copy"></i><span>copy</span></button>
-      <button class="btn btn-ghost bg-green-600 text-white"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
+      <button class="btn btn-ghost bg-green-600 text-white" id="callBtn"><i class="fa-solid fa-phone-volume" id="callIcon"></i><span>call</span></button>
     </div>
   </div>
 </div>
@@ -68,16 +68,16 @@
 <div class="card bg-white text-black text-neutral-content m-2.5 p-2.5 shadow-2xl ">
   <div class="card-body  ">
     <div class="flex flex-row justify-between items-center">
-      <img class="w-5" src="assets/emergency.png" alt="" srcset="">
+      <img class="w-5" src="assets/police.png" alt="" srcset="">
     <i class="fa-solid fa-heart" id="heartIcon"></i>
     </div>
-    <h2 class="card-title">National Emergency Number</h2>
-    <p>National Emergency</p>
-    <p class="font-bold">999</p>
-    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">All</p>
+    <h2 class="card-title" id="service">Police Helpline NUmber</h2>
+    <p>Police</p>
+    <p class="font-bold" id="number">999</p>
+    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">Police</p>
     <div class="card-actions flex flex-row justify-center">
       <button class="btn btn-primary  bg-amber-50 text-gray-600"><i class="fa-solid fa-copy"></i><span>copy</span></button>
-      <button class="btn btn-ghost bg-green-600 text-white"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
+      <button class="btn btn-ghost bg-green-600 text-white" id="callBtn"><i class="fa-solid fa-phone-volume"></i>call</button>
     </div>
   </div>
 </div>
@@ -87,16 +87,16 @@
 <div class="card bg-white text-black text-neutral-content m-2.5 p-2.5 shadow-2xl   ">
   <div class="card-body  ">
     <div class="flex flex-row justify-between items-center">
-      <img class="w-5" src="assets/emergency.png" alt="" srcset="">
+      <img class="w-5" src="assets/fire-service.png" alt="" srcset="">
     <i class="fa-solid fa-heart" id="heartIcon"></i>
     </div>
-    <h2 class="card-title">National Emergency Number</h2>
-    <p>National Emergency</p>
-    <p class="font-bold">999</p>
-    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">All</p>
+    <h2 class="card-title" id="service">Fire Service Number</h2>
+    <p>Fire Service</p>
+    <p class="font-bold" id="number">999</p>
+    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">Fire</p>
     <div class="card-actions flex flex-row justify-center">
       <button class="btn btn-primary  bg-amber-50 text-gray-600"><i class="fa-solid fa-copy"></i><span>copy</span></button>
-      <button class="btn btn-ghost bg-green-600 text-white"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
+      <button class="btn btn-ghost bg-green-600 text-white" id="callBtn"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
     </div>
   </div>
 </div>
@@ -106,16 +106,16 @@
 <div class="card bg-white text-black text-neutral-content m-2.5 p-2.5 shadow-2xl  ">
   <div class="card-body  ">
     <div class="flex flex-row justify-between items-center">
-      <img class="w-5" src="assets/emergency.png" alt="" srcset="">
+      <img class="w-5" src="assets/ambulance.png " alt="" srcset="">
     <i class="fa-solid fa-heart" id="heartIcon"></i>
     </div>
-    <h2 class="card-title">National Emergency Number</h2>
-    <p>National Emergency</p>
-    <p class="font-bold">999</p>
-    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">All</p>
+    <h2 class="card-title" id="service">Ambulance Service</h2>
+    <p>Ambulance</p>
+    <p class="font-bold" id="number">1994-999999</p>
+    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">Health</p>
     <div class="card-actions flex flex-row justify-center">
       <button class="btn btn-primary  bg-amber-50 text-gray-600"><i class="fa-solid fa-copy"></i><span>copy</span></button>
-      <button class="btn btn-ghost bg-green-600 text-white"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
+      <button class="btn btn-ghost bg-green-600 text-white" id="callBtn"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
     </div>
   </div>
 </div>
@@ -128,13 +128,13 @@
       <img class="w-5" src="assets/emergency.png" alt="" srcset="">
     <i class="fa-solid fa-heart" id="heartIcon"></i>
     </div>
-    <h2 class="card-title">National Emergency Number</h2>
-    <p>National Emergency</p>
-    <p class="font-bold">999</p>
-    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">All</p>
+    <h2 class="card-title" id="service">Women & Child Helpline</h2>
+    <p>Women & Child Helpline</p>
+    <p class="font-bold" id="number">109</p>
+    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">Help</p>
     <div class="card-actions flex flex-row justify-center">
       <button class="btn btn-primary  bg-amber-50 text-gray-600"><i class="fa-solid fa-copy"></i><span>copy</span></button>
-      <button class="btn btn-ghost bg-green-600 text-white"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
+      <button class="btn btn-ghost bg-green-600 text-white" id="callBtn"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
     </div>
   </div>
 </div>
@@ -147,13 +147,13 @@
       <img class="w-5" src="assets/emergency.png" alt="" srcset="">
     <i class="fa-solid fa-heart" id="heartIcon"></i>
     </div>
-    <h2 class="card-title">National Emergency Number</h2>
-    <p>National Emergency</p>
-    <p class="font-bold">999</p>
-    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">All</p>
+    <h2 class="card-title" id="service">Anti-Corruption Helpline</h2>
+    <p>Anti-Corruption</p>
+    <p class="font-bold" id="number">106</p>
+    <p class="bg-amber-50 w-fit px-4.5 rounded-2xl opacity-55">Govt.</p>
     <div class="card-actions flex flex-row justify-center">
       <button class="btn btn-primary  bg-amber-50 text-gray-600"><i class="fa-solid fa-copy"></i><span>copy</span></button>
-      <button class="btn btn-ghost bg-green-600 text-white"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
+      <button class="btn btn-ghost bg-green-600 text-white" id="callBtn"><i class="fa-solid fa-phone-volume"></i><span>call</span></button>
     </div>
   </div>
 </div>
