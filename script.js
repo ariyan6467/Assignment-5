@@ -54,25 +54,8 @@ heartIcon[heartIconsIndex].addEventListener("click", function(){
        
    
     navigator.clipboard.writeText(number[heartIconsIndex].innerText)
-        
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    })
-
-}
+         })
+        }
 
 for(let i = 0 ;i<=5; i++){
     amplifyHearts(i);
