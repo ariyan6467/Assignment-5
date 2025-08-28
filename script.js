@@ -90,7 +90,7 @@ function  changecoins(callBtnIndex,serviceIndex,numberIndex){
                  coin.innerText = crntCoin ;
 
                   totalCoin -= 20 ;
-                    alert(`${callIcon.innerText} calling ${service[serviceIndex].innerText} ${number[numberIndex].innerText}....`)
+                    alert(`📞 ${callIcon.innerText} calling ${service[serviceIndex].innerText} ${number[numberIndex].innerText}....`)
 
                    let  history = {
             services : service[serviceIndex].innerText,
@@ -130,6 +130,5 @@ for(let i = 0 ;i<=5; i++){
 
 
 
-// COPY FUNCTIONALITY
 
 
